@@ -45,7 +45,6 @@ public class Vocalist extends Contestant {
 	//		return		- String	- performance description
 	//		vocalist requirement = “I sing in the key of – G –  at the volume 5 - 1245”
 	public String perform(int volume) {
-
 		if((volume >= 1) && (volume <= 10)){
 			return ("I sing in the key of – " + getSongKey() + " - at the volume " + volume + " - "+ getUnionID());
 		} else {	//	volume is less than 1 or greater than 10, so perform without volume...the show must go on
