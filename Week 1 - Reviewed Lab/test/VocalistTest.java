@@ -25,14 +25,6 @@ public class VocalistTest {
 		assertEquals("I sing in the key of – G - 10", v1.perform());
 		
 	}
-	
-	//	method not used for current implimentation of Performer class returns null	
-	@Test
-	public void testPerformString() {
-		
-		assertNull(v1.perform("Test String"));
-		
-	}
 
 	//	Test perform method with integer volume operand - must be between 1 and 10, otherwise ignored 
 	@Test

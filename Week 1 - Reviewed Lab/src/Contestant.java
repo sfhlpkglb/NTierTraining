@@ -47,18 +47,6 @@ public abstract class Contestant {
 	//		return	-	String	- performance description
 	abstract public String perform();
 	
-	//	perform method	-	what the contestant will perform for the competition
-	//		PARAMETERS
-	//			challenge - String - additional performer challenge
-	//		return	-	String	- performance description
-	abstract public String perform(String challenge);
-
-	//	perform method	-	what the contestant will perform for the competition
-	//		PARAMETERS
-	//			challenge - int - additional performer challenge
-	//		return	-	String	- performance description
-	abstract public String perform(int challenge);
-	
 	//	toString method - contestant information
 	abstract public String toString();
 

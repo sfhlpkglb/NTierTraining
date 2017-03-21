@@ -38,23 +38,12 @@ public class Vocalist extends Contestant {
 		return ("I sing in the key of – " + getSongKey() + " - "+ getUnionID());
 	}
 	
-	//	perform method		-	what the contestant will perform for the competition
-	//		PARAMETERS
-	//			challenge 	- String - additional performer challenge
-	//		return			- String	- performance description
-	@Override
-	public String perform(String challenge) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
 	//	perform method	-	what the contestant will perform for the competition
 	//		PARAMETERS
 	//			volume 	- int - additional performer challenge (how loud the singer must sing)
 	//						value range 1 through 10
 	//		return		- String	- performance description
 	//		vocalist requirement = “I sing in the key of – G –  at the volume 5 - 1245”
-	@Override
 	public String perform(int volume) {
 
 		if((volume >= 1) && (volume <= 10)){

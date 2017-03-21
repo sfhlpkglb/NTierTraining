@@ -25,22 +25,6 @@ public class DancerTest {
 		
 	}
 
-	//	method not used for current implimentation of Dancer class returns null
-	@Test
-	public void testPerformString() {
-		
-		assertNull(d1.perform("Test String"));
-		
-	}
-
-	//	method not used for current implimentation of Dancer class returns null
-	@Test
-	public void testPerformInt() {
-		
-		assertNull(d1.perform(1));
-		
-	}
-
 	//	Test toString method
 	@Test
 	public void testToString() {

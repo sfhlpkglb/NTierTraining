@@ -26,20 +26,6 @@ public class PerformerTest {
 		
 	}
 
-	//	method not used for current implimentation of Performer class returns null	
-	@Test
-	public void testPerformString() {
-		
-		assertNull(p1.perform("Test String"));
-	}
-
-	//	method not used for current implimentation of Performer class returns null
-	@Test
-	public void testPerformInt() {
-		
-		assertNull(p1.perform(1));
-	}
-
 	//	Test toString method
 	@Test
 	public void testToString() {

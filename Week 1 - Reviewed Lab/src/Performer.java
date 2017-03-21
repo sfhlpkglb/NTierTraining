@@ -25,26 +25,6 @@ public class Performer extends Contestant{
 		return getUnionID() + " - performer";	
 	}
 
-	//	perform method	-	what the contestant will perform for the competition
-	//		PARAMETERS
-	//			challenge - String - additional performer challenge
-	//		return	-	String	- performance description	
-	@Override
-	public String perform(String challenge) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	//	perform method	-	what the contestant will perform for the competition
-	//		PARAMETERS
-	//			challenge - int - additional performer challenge
-	//		return	-	String	- performance description
-	@Override
-	public String perform(int challenge) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	//	toString - Performer
 	//		NO PARAMETERS
 	//		return	-	String	- performer description

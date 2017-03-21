@@ -27,9 +27,16 @@ public class Audition {
 		System.out.println((contestants.getContestant(1)).perform());
 		System.out.println((contestants.getContestant(5)).perform());
 		//	have vocalist perform at a volume of 5
-		System.out.println((contestants.getContestant(5)).perform(5));
+		Contestant c1 = contestants.getContestant(5);
+		if(c1.getContestantType() == ContestantType.VOCALIST){
+			Vocalist v1 = (Vocalist) c1;
+			System.out.println(v1.perform(5));
+		}
 		//	have vocalist perform with a volume of 20 (trick volume...vocalist will just sing)
-		System.out.println((contestants.getContestant(5)).perform(20));
+		if(c1.getContestantType() == ContestantType.VOCALIST){
+			Vocalist v1 = (Vocalist) c1;
+			System.out.println(v1.perform(20));
+		}
 		//	finish the show in style
 		System.out.println((contestants.getContestant(3)).perform());
 		
