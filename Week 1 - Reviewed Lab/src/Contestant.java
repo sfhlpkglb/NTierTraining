@@ -47,6 +47,7 @@ public abstract class Contestant {
 	//		return	-	String	- performance description
 	abstract public String perform();
 	
+	/*% all objects already have toString by default %*/
 	//	toString method - contestant information
 	abstract public String toString();
 

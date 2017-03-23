@@ -4,6 +4,7 @@
 //
 public class Dancer extends Contestant {
  
+	/*% unnecessary to explicitly initialize danceStyle to null %*/
 	private String danceStyle = null;	//	danceStyle - Dancers perform a style of dance
 	
 	//	CONSTRUCTOR method

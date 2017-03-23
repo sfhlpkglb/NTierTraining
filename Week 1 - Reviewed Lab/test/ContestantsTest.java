@@ -12,6 +12,7 @@ import org.junit.Test;
 public class ContestantsTest {
 
 	//	Define contestants data manager
+	/*% does this really need to be static? %*/
 	static Contestants contestants;
 	
 	@BeforeClass

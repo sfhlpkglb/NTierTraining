@@ -12,6 +12,9 @@ public class Contestants {
 	
 	private int nextUnionID = 1000;		//	seed for id in case user does not set unionID 
 	
+	/*% overkill with the comments! Makes it really hard to read. The code should be self explanatory for the most part %*/
+	
+	
 	//	----------- METHODS ----------
 
 	//	addContestant method	-	Add a unique contestant to the contestants queue
@@ -22,7 +25,7 @@ public class Contestants {
 	public boolean addContestant(Contestant contestant){
 		
 		Integer id = contestant.getUnionID();	//	get id from contestant
-		
+		/*% try to only use one return per method %*/
 		//	id must be greater than 0 and unique - when id is less than 1 or already in queue, reject add
 		if((id > 0) && (contestants.putIfAbsent(id, contestant)) == null){	//	ADD contestant to audition queue
 			return true;	//	SUCCESS - return true to caller

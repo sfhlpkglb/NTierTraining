@@ -3,6 +3,8 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+/*% Overall, really overkill on the comments but everything else looked really good! %*/
+/*% The unit testing was great! %*/
 public class Audition {
 
 	public static void main(String[] args) {
@@ -22,6 +24,8 @@ public class Audition {
 		System.out.println(contestants);
 		
 		System.out.println("=============================");
+		
+		/*% This is a lot of if statements - these should be broken up into unit tests rather than inside your main method %*/
 		
 		//	have some contestants perform for judges
 		System.out.println((contestants.getContestant(1)).perform());
